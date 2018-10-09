@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://chad-bennett.github.io/arts229/demo-flexbox/flexbox.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>flexbox demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+  .flex-container1 {display: flex; background-color: green; height: 500px; flex-wrap: wrap;}
+
+  .flex-container1 div {background-color: red; height: 200px; flex: 150px; flex-wrap: wrap-reverse;}
+
+  .flex-container2 {display: flex; background-color: blue; height: 500px;flex-wrap: wrap-reverse; padding:1em; margin: inherit;}
+
+  .flex-container2 div {background-color: pink; height: 200px; flex: 150px; flex-wrap: wrap; margin: 10px}
+
+  .flex-container3{ display: flex; background-color: #9000B3; height: 500px; flex-wrap: nowrap; flex-direction: column;}
+
+  .flex-container3 div {background-color: #DAA588; height: 200px; flex-wrap: wrap; margin: 5px}
+
+  .flex-container4 {display: inline-flex; background-color: #A40E4C; height: 500px; flex-wrap: nowrap; flex-direction: column-reverse; padding: 2em; margin: 1px}
+
+  .flex-container4 div {background-color: #DAA588; height: 200px; flex: 150px; width: 150px; flex-wrap: wrap; margin: 2px}
+
+  <style>
+    body {
+      background: #222;
+      font-family: sans-serif;
+      background-color: black
+    }
+
+    header {
+      color: #ccc;
+      text-align: center;
+    }
+
+    .flex-container5 {
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+
+    .article {
+      flex: 100%;
+      background: #f3ca40;
+      padding: 2em;
+      box-sizing: border-box;
+    }
+
+    .siderbar {
+      flex: 100%;
+      background: #ccc;
+      padding: 2em;
+      box-sizing: border-box;
+      margin-top: 1%;
+    }
+
+    .footer {
+      flex: 100%;
+      background: #f3ca40;
+      padding: 2em;
+      box-sizing: border-box;
+      margin-top: 1%;
+      margin-bottom: 2%;
+    }
+
+
+    @media screen and (min-width: 1000px) {
+      .article {
+        flex: 69%;
+        margin-right: 1%;
+      }
+
+      .siderbar {
+        flex: 30%;
+        margin-top: 0;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>flexbox experiments</h1>
+  </header>
+
+  <section class="flex-container1">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+  </section>
+
+  <section class="flex-container2">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8<p>=OwO=</p></div>
+  </section>
+
+  <section class="flex-container3">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+  </section>
+
+  <section class="flex-container4">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+  </section>
+
+  <section class="flex-container5">
+    <div>
+
+    <div>
+      <section class="flex-container5">
+        <div class="article">
+          <h2>i have no clue what im doing with my life</h2>
+          <p>this is some nonsence about the bee movie</p></div>
+
+      <div class="siderbar">
+        <h2>beesides</h2>
+        <p>According to all known laws of aviation,
+
+
+  there is no way a bee
+  should be able to fly.
+
+
+  Its wings are too small to get
+  its fat little body off the ground.
+
+
+  The bee, of course, flies anyway
+
+
+  because bees don't care
+  what humans think is impossible.</p>
+      </div>
+
+
+      <div class="footer">
+        <h2>thinking bee</h2>
+        <p>Buzz Buzz buzz</p>
+      </div>
+      </section>
+
+
+
+
+</body></html>
